@@ -9,15 +9,7 @@ The remaining 2514 tweets are also provided in a separate sheet.The statistics o
 3)Validation-(Total : 1500) : It contains 500 positive,negative,neutral tweets each.<br>
 For conducting baseline experiments on our dataset, hashtags, mentions and special symbols were removed while preprocessing.<br>
 The accuracies for Two-class(positive,negative) and Three-class(positive,negative,neutral) for some good-performing models are as follows :-<br>
-<table>
-<tr>
-  <td>
-    HI
-  </td>
-  </tr>
-  
 
-</table>
 1) BERT - IndicBERT(INLP) : 
 - two-class accuracy -- 84.13
 - three-class accuracy -- 92.93
