@@ -1,6 +1,6 @@
 # L3CubeMahaSent
 
-We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date.This dataset is gathered using Twitter.
+We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date.This dataset is gathered using Twitter.<br>
 This dataset contains total 18378 tweets which are classified into three classes - positive(1), negative(-1) and neutral(0).
 Out of these 15864 tweets are considered for splitting them into train, test and validation datasets.
 The remaining 2514 tweets are also provided in a separate sheet.The statistics of train , test and validation dataset are as follows : 
