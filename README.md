@@ -1,14 +1,14 @@
 # L3CubeMahaSent
 
 We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date.This dataset is gathered using Twitter.<br>
-This dataset contains total 18378 tweets which are classified into three classes - positive(1), negative(-1) and neutral(0).
-Out of these 15864 tweets are considered for splitting them into train, test and validation datasets.
-The remaining 2514 tweets are also provided in a separate sheet.The statistics of train , test and validation dataset are as follows : 
-1)Train-(Total : 12114) : It contains 4038 positive,negative,neutral tweets each.
-2)Test-(Total : 2250) : It contains 750 positive,negative,neutral tweets each.
-3)Validation-(Total : 1500) : It contains 500 positive,negative,neutral tweets each.
-For conducting baseline experiments on our dataset, hashtags, mentions and special symbols were removed while preprocessing.
-The accuracies for Two-class(positive,negative) and Three-class(positive,negative,neutral) for some good-performing models are as follows :-
+This dataset contains total 18378 tweets which are classified into three classes - positive(1), negative(-1) and neutral(0).<br>
+Out of these 15864 tweets are considered for splitting them into train, test and validation datasets.<br>
+The remaining 2514 tweets are also provided in a separate sheet.The statistics of train , test and validation dataset are as follows : <br>
+1)Train-(Total : 12114) : It contains 4038 positive,negative,neutral tweets each.<br>
+2)Test-(Total : 2250) : It contains 750 positive,negative,neutral tweets each.<br>
+3)Validation-(Total : 1500) : It contains 500 positive,negative,neutral tweets each.<br>
+For conducting baseline experiments on our dataset, hashtags, mentions and special symbols were removed while preprocessing.<br>
+The accuracies for Two-class(positive,negative) and Three-class(positive,negative,neutral) for some good-performing models are as follows :-<br>
 1) BERT - IndicBERT(INLP) : 
 - two-class accuracy -- 84.13
 - three-class accuracy -- 92.93
