@@ -2,11 +2,12 @@
 
 We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date.This dataset is gathered using Twitter.<br>
 This dataset contains total 18378 tweets which are classified into three classes - positive(1), negative(-1) and neutral(0).<br>
-Out of these 15864 tweets are considered for splitting them into train, test and validation datasets.<br>
-The remaining 2514 tweets are also provided in a separate sheet.The statistics of train , test and validation dataset are as follows : <br>
-1)Train-(Total : 12114) : It contains 4038 positive,negative,neutral tweets each.<br>
-2)Test-(Total : 2250) : It contains 750 positive,negative,neutral tweets each.<br>
-3)Validation-(Total : 1500) : It contains 500 positive,negative,neutral tweets each.<br>
+Out of these 15864 tweets are considered for splitting them into train(tweets-train.csv), test(tweets-test.csv) and validation(tweets-valid.csv) datasets.<br>
+The remaining 2514 tweets are also provided in a separate sheet(tweets-extra.csv). The statistics of train , test and validation dataset are as follows : <br>
+1)Train-(Total : 12114 tweets) : It contains 4038 positive,negative,neutral tweets each.<br>
+2)Test-(Total : 2250 tweets) : It contains 750 positive,negative,neutral tweets each.<br>
+3)Validation-(Total : 1500 tweets) : It contains 500 positive,negative,neutral tweets each.<br>
+4)Extra-(Total : 2514 tweets) : It contains 2355 positive and 159 negative tweets.<br>
 For conducting baseline experiments on our dataset, hashtags, mentions and special symbols were removed while preprocessing.<br>
 The accuracies for Two-class(positive,negative) and Three-class(positive,negative,neutral) for some good-performing models are as follows :-<br>
 
