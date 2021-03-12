@@ -33,8 +33,8 @@ fastText embeddings provided by IndicNLP (link) and Facebook (link) were also us
 
 - ULMFiT pretrained by iNLTK (link)
 - BERT based models:
--- Multilingual BERT (link)
--- IndicBERT (link)
+  - Multilingual BERT (link)
+  - IndicBERT (link)
 
 Details of the best performing models are given in the following table:
 
