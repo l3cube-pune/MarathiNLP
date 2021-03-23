@@ -1,6 +1,6 @@
 # L3CubeMahaSent
 
-We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date.This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper. (link)
+We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date. This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2103.11408'> link </a>.
 
 ## Dataset Statistics
 
@@ -22,19 +22,18 @@ The extra sheet contains 2355 positive and 159 negative tweets. These tweets hav
 
 ## Baseline Experimentations
 
-Two-class(positive,negative) and Three-class(positive,negative,neutral) sentiment analysis was performed on the dataset.
+Two-class(positive,negative) and Three-class(positive,negative,neutral) sentiment analysis / classification was performed on the dataset.
 
 ### Models
 
-For performing baseline experiments, following models are used:
+Some of the models used or performing baseline experiments were:
 
 - CNN, BiLSTM
-  - fastText embeddings provided by IndicNLP (link) and Facebook (link) are also used along with the above two models. These embeddings are used in two variations: static and trainable.
+  - fastText embeddings provided by <a href='https://github.com/AI4Bharat/indicnlp_corpus'> IndicNLP </a> and <a href='https://fasttext.cc/docs/en/crawl-vectors.html'> Facebook </a> are also used along with the above two models. These embeddings are used in two variations: static and trainable.
 
-- ULMFiT pretrained by iNLTK (link)
 - BERT based models:
-  - Multilingual BERT (link)
-  - IndicBERT (link)
+  - Multilingual BERT
+  - IndicBERT
 
 ### Results
 
@@ -46,5 +45,13 @@ Details of the best performing models are given in the following table:
 |BiLSTM IndicFT trainable|82.89|91.80|
 |IndicBERT|84.13|92.93|
 
+The fine-tuned IndicBERT model is available on huggngface <a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> here </a>.
+Further details about the dataset and baseline experiments can be found in this <a href='https://arxiv.org/abs/2103.11408'> paper </a> <a href='https://arxiv.org/pdf/2103.11408.pdf'> pdf </a>.
 
-Further details can be found in this paper. (link)
+## License
+
+L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+## Citing
+
+If you find the resources or dataset helpful, cite this article
