@@ -54,4 +54,19 @@ L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons
 
 ## Citing
 
-If you find the resources or dataset helpful, cite this article
+```
+@article{kulkarni2021l3cubemahasent,
+  title={L3CubeMahaSent: A Marathi Tweet-based Sentiment Analysis Dataset},
+  author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Joshi, Raviraj},
+  journal={arXiv preprint arXiv:2103.11408},
+  year={2021}
+}
+```
+```
+@article{kulkarni2021experimental,
+  title={Experimental Evaluation of Deep Learning models for Marathi Text Classification},
+  author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Jagdale, Jayashree and Joshi, Raviraj},
+  journal={arXiv preprint arXiv:2101.04899},
+  year={2021}
+}
+```
