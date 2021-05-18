@@ -55,10 +55,11 @@ L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons
 ## Citing
 
 ```
-@article{kulkarni2021l3cubemahasent,
+@inproceedings{kulkarni2021l3cubemahasent,
   title={L3CubeMahaSent: A Marathi Tweet-based Sentiment Analysis Dataset},
   author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2103.11408},
+  booktitle={Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
+  pages={213--220},
   year={2021}
 }
 ```
