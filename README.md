@@ -45,7 +45,7 @@ Details of the best performing models are given in the following table:
 |BiLSTM IndicFT trainable|82.89|91.80|
 |IndicBERT|84.13|92.93|
 
-The fine-tuned IndicBERT model is available on huggngface <a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> here </a>.
+The fine-tuned IndicBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> here </a>.
 Further details about the dataset and baseline experiments can be found in this <a href='https://arxiv.org/abs/2103.11408'> paper </a> <a href='https://arxiv.org/pdf/2103.11408.pdf'> pdf </a>.
 
 ## License
