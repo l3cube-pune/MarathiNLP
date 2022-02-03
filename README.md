@@ -1,6 +1,11 @@
+# L3Cube-MahaCorpus
+L3Cube-MahaCorpus a Marathi monolingual data set scraped from different internet sources. We expand the existing Marathi monolingual corpus with 24.8M sentences and 289M tokens.
+We also present, MahaBERT, MahaAlBERT, and MahaRoBerta all BERT-based masked language models, and MahaFT, the fast text word embeddings both trained on full Marathi corpus with 752M tokens. 
+The evaluation details are mentioned in our paper <a href=''> link </a>
+
 # L3CubeMahaSent
 
-We present L3CubeMahaSent - the largest publicly available Marathi Sentiment Analysis dataset to date. This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2103.11408'> link </a>.
+L3CubeMahaSent is the largest publicly available Marathi Sentiment Analysis dataset to date. This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2103.11408'> link </a>.
 
 ## Dataset Statistics
 
