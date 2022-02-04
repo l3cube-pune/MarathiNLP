@@ -2,6 +2,25 @@
 L3Cube-MahaCorpus a Marathi monolingual data set scraped from different internet sources. We expand the existing Marathi monolingual corpus with 24.8M sentences and 289M tokens.
 We also present, MahaBERT, MahaAlBERT, and MahaRoBerta all BERT-based masked language models, and MahaFT, the fast text word embeddings both trained on full Marathi corpus with 752M tokens. 
 The evaluation details are mentioned in our paper <a href=''> link </a>
+## Dataset Statistics
+L3Cube-MahaCorpus(full) = L3Cube-MahaCorpus(news) + L3Cube-MahaCorpus(non-news)
+
+Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bharat/indicnlp_corpus'> sources </a>.
+|Dataset|#tokens(M)|#sentences(M)|Link|
+|:--------:|:----:|:----:|:----:|
+|L3Cube-MahaCorpus(news)|212|17.6|<a href=''> link </a>|
+|L3Cube-MahaCorpus(non-news)|76.4|7.2|<a href=''> link </a>|
+|L3Cube-MahaCorpus(full)|289|24.8|<a href=''> link </a>|
+|Full Marathi Corpus(all sources)|752|57.2|<a href=''> link </a>|
+
+## Marathi BERT models and Marathi Fast Text model
+The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
+|Model|Description|Link|
+|:--------:|:----:|:----:|
+|MahaBERT|Base-BERT|<a href=''> link </a>|
+|MahaRoBERTa|RoBERTa|<a href=''> link </a>|
+|MahaAlBERT|AlBERT|<a href=''> link </a>|
+|MahaFT|Fast Text|<a href=''> link </a>|
 
 # L3CubeMahaSent
 
