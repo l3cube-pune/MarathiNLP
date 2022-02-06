@@ -8,10 +8,10 @@ L3Cube-MahaCorpus(full) = L3Cube-MahaCorpus(news) + L3Cube-MahaCorpus(non-news)
 Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bharat/indicnlp_corpus'> sources </a>.
 |Dataset|#tokens(M)|#sentences(M)|Link|
 |:--------:|:----:|:----:|:----:|
-|L3Cube-MahaCorpus(news)|212|17.6|<a href=''> link </a>|
-|L3Cube-MahaCorpus(non-news)|76.4|7.2|<a href=''> link </a>|
-|L3Cube-MahaCorpus(full)|289|24.8|<a href=''> link </a>|
-|Full Marathi Corpus(all sources)|752|57.2|<a href=''> link </a>|
+|L3Cube-MahaCorpus(news)|212|17.6|<a href='https://drive.google.com/file/d/1gLI38-YdvapattwxC3z46Fgzif7j8_Ji/view?usp=sharing'> link </a>|
+|L3Cube-MahaCorpus(non-news)|76.4|7.2|<a href='https://drive.google.com/file/d/1KHHJByCFwJxMJaGkO3FjIQbkLbc7rHAQ/view?usp=sharing'> link </a>|
+|L3Cube-MahaCorpus(full)|289|24.8|<a href='https://drive.google.com/file/d/1sHIIq7C-WA6nSQaoVr4uL6pas8MVNmAr/view?usp=sharing'> link </a>|
+|Full Marathi Corpus(all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
 
 ## Marathi BERT models and Marathi Fast Text model
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
@@ -20,7 +20,7 @@ The full Marathi Corpus is used to train BERT language models and made available
 |MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> link </a>|
 |MahaRoBERTa|RoBERTa|<a href='https://huggingface.co/l3cube-pune/marathi-roberta'> link </a>|
 |MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> link </a>|
-|MahaFT|Fast Text|<a href=''> link </a>|
+|MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a> <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
 
 # L3CubeMahaSent
 
@@ -74,9 +74,17 @@ Further details about the dataset and baseline experiments can be found in this 
 
 ## License
 
-L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+L3Cube-MahaCorpus and L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## Citing
+```
+@article{joshi2022l3cube,
+  title={L3Cube-MahaCorpus and MahaBERT: Marathi Monolingual Corpus, Marathi BERT Language Models, and Resources},
+  author={Joshi, Raviraj},
+  journal={arXiv preprint arXiv:2202.01159},
+  year={2022}
+}
+```
 
 ```
 @inproceedings{kulkarni2021l3cubemahasent,
@@ -88,10 +96,12 @@ L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons
 }
 ```
 ```
-@article{kulkarni2021experimental,
-  title={Experimental Evaluation of Deep Learning models for Marathi Text Classification},
+@inproceedings{kulkarni2022experimental,
+  title={Experimental evaluation of deep learning models for marathi text classification},
   author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Jagdale, Jayashree and Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2101.04899},
-  year={2021}
+  booktitle={Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications},
+  pages={605--613},
+  year={2022},
+  organization={Springer}
 }
 ```
