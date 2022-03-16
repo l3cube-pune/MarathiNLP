@@ -19,7 +19,8 @@ The full Marathi Corpus is used to train BERT language models and made available
 |:--------:|:----:|:----:|
 |MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> link </a>|
 |MahaRoBERTa|RoBERTa|<a href='https://huggingface.co/l3cube-pune/marathi-roberta'> link </a>|
-|MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> link </a>|
+|MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> v1 </a> <a href='https://huggingface.co/l3cube-pune/marathi-albert-v2'> v2 </a>|
+|MahaGPT|GPT2|<a href='https://huggingface.co/l3cube-pune/marathi-gpt'> link </a>|
 |MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a> <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
 
 # L3CubeMahaSent
