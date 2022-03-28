@@ -117,3 +117,5 @@ L3Cube-MahaCorpus and L3CubeMahaSent is licensed under a <a rel="license" href="
   organization={Springer}
 }
 ```
+
+This project is co-ordinated and mentored by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
