@@ -23,9 +23,21 @@ The full Marathi Corpus is used to train BERT language models and made available
 |MahaGPT|GPT2|<a href='https://huggingface.co/l3cube-pune/marathi-gpt'> link </a>|
 |MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a> <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
 
+# L3Cube-MahaNER
+
+L3Cube-MahaNER, the first major gold standard named entity recognition dataset in Marathi. This dataset manually curated and the original sentences were sampled from the MahaCorpus. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2204.06029'> link </a>.
+The dataset is present in folder L3Cube-MahaNER/
+
+## Dataset Statistics
+
+The dataset is released in IOB and non-IOB form. The non-IOB dataset has total of 25000 samples categorized into 8 entity classes.
+
+The fine-tuned MahaBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/marathi-ner'> MahaNER-BERT </a>. The benchmark results are described in our paper <a href='https://arxiv.org/pdf/2204.06029.pdf'> pdf </a>
+
+
 # L3Cube-MahaHate
 
-L3Cube-MahaHate is the largest publicly available Marathi Hate Speech Detection dataset to date. This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2203.13778'> link </a>.
+L3Cube-MahaHate is the largest publicly available Marathi Hate Speech Detection dataset to date. This dataset is made of Marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2203.13778'> link </a>.
 The dataset is present in folder L3Cube-MahaHate/
 
 ## Dataset Statistics
