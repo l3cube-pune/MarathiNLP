@@ -30,7 +30,7 @@ The dataset is present in folder L3Cube-MahaNER/
 
 ## Dataset Statistics
 
-The dataset is released in IOB and non-IOB form. The non-IOB dataset has total of 25000 samples categorized into 8 entity classes.
+The dataset is released in IOB and non-IOB form. The non-IOB dataset has total of 25000 samples with 21500 train samples, 2000 test samples, and 1500 validation samples categorized into 8 entity classes.
 
 The fine-tuned MahaBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/marathi-ner'> MahaNER-BERT </a>. The benchmark results are described in our paper <a href='https://arxiv.org/pdf/2204.06029.pdf'> pdf </a>
 
