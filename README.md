@@ -1,4 +1,7 @@
-# L3Cube-MahaCorpus
+# L3Cube-MahaNLP
+Despite being the third most popular language in India, the Marathi language lacks useful NLP resources. With <a href='https://arxiv.org/abs/2205.14728'> L3Cube-MahaNLP</a>, we aim to build resources and a library for Marathi natural language processing. We have contributed un-supervised and supervised datasets as well as Transformer models for Marathi. The supervised datasets include Marathi sentiment analysis, named entity recognition, and hate speech detection. With this we at L3Cube-Pune aim to bring Marathi to the fore-front of IndicNLP. Our vision is to make Marathi a resource rich language and promote AI for Maharashtra! 
+
+# L3Cube-MahaCorpus and Marathi BERT
 L3Cube-MahaCorpus a Marathi monolingual data set scraped from different internet sources. We expand the existing Marathi monolingual corpus with 24.8M sentences and 289M tokens.
 We also present, MahaBERT, MahaAlBERT, and MahaRoBerta all BERT-based masked language models, and MahaFT, the fast text word embeddings both trained on full Marathi corpus with 752M tokens. 
 The evaluation details are mentioned in our paper <a href='https://arxiv.org/abs/2202.01159'> link </a>
