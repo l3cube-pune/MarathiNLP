@@ -106,31 +106,31 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate and L3CubeMahaSent is license
 ## Citing
 ```
 @article{joshi2022l3cube,
-  title={L3Cube-MahaCorpus and MahaBERT: Marathi Monolingual Corpus, Marathi BERT Language Models, and Resources},
+  title={L3Cube-MahaNLP: Marathi Natural Language Processing Datasets, Models, and Library},
   author={Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2202.01159},
+  journal={arXiv preprint arXiv:2205.14728},
   year={2022}
 }
 ```
 
+## Publications
+
 ```
-@inproceedings{kulkarni2021l3cubemahasent,
-  title={L3CubeMahaSent: A Marathi Tweet-based Sentiment Analysis Dataset},
-  author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Joshi, Raviraj},
-  booktitle={Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
-  pages={213--220},
-  year={2021}
-}
-```
-```
-@inproceedings{kulkarni2022experimental,
-  title={Experimental evaluation of deep learning models for marathi text classification},
-  author={Kulkarni, Atharva and Mandhane, Meet and Likhitkar, Manali and Kshirsagar, Gayatri and Jagdale, Jayashree and Joshi, Raviraj},
-  booktitle={Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications},
-  pages={605--613},
-  year={2022},
-  organization={Springer}
-}
+Joshi, Raviraj. "L3cube-mahacorpus and mahabert: Marathi monolingual corpus, marathi bert language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
+
+Patil, Parth, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." arXiv preprint arXiv:2204.06029 (2022).
+
+Litake, Onkar, et al. "Mono vs multilingual BERT: A case study in hindi and marathi named entity recognition." arXiv preprint arXiv:2203.12907 (2022).
+
+Velankar, Abhishek, et al. "Mono vs Multilingual BERT for Hate Speech Detection and Text Classification: A Case Study in Marathi." arXiv preprint arXiv:2204.08669 (2022).
+
+Velankar, Abhishek, et al. "L3Cube-MahaHate: A Tweet-based Marathi Hate Speech Detection Dataset and BERT models." arXiv preprint arXiv:2203.13778 (2022).
+
+Velankar, Abhishek, et al. "Hate and offensive speech detection in Hindi and Marathi." arXiv preprint arXiv:2110.12200 (2021).
+
+Kulkarni, Atharva, et al. "L3CubeMahaSent: A Marathi Tweet-based Sentiment Analysis Dataset." Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis. 2021.
+
+Kulkarni, Atharva, et al. "Experimental evaluation of deep learning models for marathi text classification." Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications. Springer, Singapore, 2022.
 ```
 
 This project is co-ordinated and mentored by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
