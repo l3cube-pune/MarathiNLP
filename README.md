@@ -116,11 +116,11 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate and L3CubeMahaSent is license
 ## Publications
 
 ```
-Joshi, Raviraj. "L3cube-mahacorpus and mahabert: Marathi monolingual corpus, marathi bert language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
+Joshi, Raviraj. "L3cube-MahaCorpus and MahaBERT: Marathi monolingual corpus, Marathi BERT language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
 
 Patil, Parth, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." arXiv preprint arXiv:2204.06029 (2022).
 
-Litake, Onkar, et al. "Mono vs multilingual BERT: A case study in hindi and marathi named entity recognition." arXiv preprint arXiv:2203.12907 (2022).
+Litake, Onkar, et al. "Mono vs Multilingual BERT: A Case Study in Hindi and Marathi Named Entity Recognition." arXiv preprint arXiv:2203.12907 (2022).
 
 Velankar, Abhishek, et al. "Mono vs Multilingual BERT for Hate Speech Detection and Text Classification: A Case Study in Marathi." arXiv preprint arXiv:2204.08669 (2022).
 
@@ -130,7 +130,7 @@ Velankar, Abhishek, et al. "Hate and offensive speech detection in Hindi and Mar
 
 Kulkarni, Atharva, et al. "L3CubeMahaSent: A Marathi Tweet-based Sentiment Analysis Dataset." Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis. 2021.
 
-Kulkarni, Atharva, et al. "Experimental evaluation of deep learning models for marathi text classification." Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications. Springer, Singapore, 2022.
+Kulkarni, Atharva, et al. "Experimental Evaluation of Deep Learning Models for Marathi Text Classification." Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications. Springer, Singapore, 2022.
 ```
 
 This project is co-ordinated and mentored by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
