@@ -20,7 +20,7 @@ Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bha
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
 |Model|Description|Link|
 |:--------:|:----:|:----:|
-|MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> link </a>|
+|MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> v1 </a> <a href='https://huggingface.co/l3cube-pune/marathi-bert-v2'> v2 </a>|
 |MahaRoBERTa|RoBERTa|<a href='https://huggingface.co/l3cube-pune/marathi-roberta'> link </a>|
 |MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> v1 </a> <a href='https://huggingface.co/l3cube-pune/marathi-albert-v2'> v2 </a>|
 |MahaGPT|GPT2|<a href='https://huggingface.co/l3cube-pune/marathi-gpt'> link </a>|
