@@ -20,84 +20,21 @@ Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bha
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
 |Model|Description|Link|
 |:--------:|:----:|:----:|
-|MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> v1 </a> <a href='https://huggingface.co/l3cube-pune/marathi-bert-v2'> v2 </a>|
+|MahaBERT|Base-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-bert'> v1 </a>, <a href='https://huggingface.co/l3cube-pune/marathi-bert-v2'> v2 </a>, <a href='https://arxiv.org/abs/2202.01159'> paper </a>|
 |MahaRoBERTa|RoBERTa|<a href='https://huggingface.co/l3cube-pune/marathi-roberta'> link </a>|
-|MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> v1 </a> <a href='https://huggingface.co/l3cube-pune/marathi-albert-v2'> v2 </a>|
+|MahaAlBERT|AlBERT|<a href='https://huggingface.co/l3cube-pune/marathi-albert'> v1 </a>, <a href='https://huggingface.co/l3cube-pune/marathi-albert-v2'> v2 </a>|
 |MahaGPT|GPT2|<a href='https://huggingface.co/l3cube-pune/marathi-gpt'> link </a>|
-|MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a> <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
+|MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a>, <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
+|MahaTweetBERT|MahaBERT + Tweets|<a href='https://huggingface.co/l3cube-pune/marathi-tweets-bert'> model </a>, <a href='https://arxiv.org/abs/2210.04267'> paper </a>|
+|MahaSBERT|Sentence-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-sentence-similarity-sbert'> MahaSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/marathi-sentence-bert-nli'> MahaSBERT </a> , <a href='https://arxiv.org/abs/2211.11187'> paper </a>|
 
-# L3Cube-MahaNER
+# Supervised Datasets
 
-L3Cube-MahaNER, the first major gold standard named entity recognition dataset in Marathi. This dataset manually curated and the original sentences were sampled from the MahaCorpus. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2204.06029'> link </a>.
-The dataset is present in folder L3Cube-MahaNER/
-
-## Dataset Statistics
-
-The dataset is released in IOB and non-IOB form. The non-IOB dataset has total of 25000 samples with 21500 train samples, 2000 test samples, and 1500 validation samples categorized into 8 entity classes.
-
-The fine-tuned MahaBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/marathi-ner'> MahaNER-BERT </a>. The benchmark results are described in our paper <a href='https://arxiv.org/pdf/2204.06029.pdf'> pdf </a>
-
-
-# L3Cube-MahaHate
-
-L3Cube-MahaHate is the largest publicly available Marathi Hate Speech Detection dataset to date. This dataset is made of Marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2203.13778'> link </a>.
-The dataset is present in folder L3Cube-MahaHate/
-
-## Dataset Statistics
-
-The dataset is released in 4-class and 2-class form. The 4-class dataset (with labels hate, offensive, pofane, and not) has total of 25000 samples with 21500 train samples, 2000 test samples, and 1500 validation samples. The 2-class dataset (with labels hate and not) has a total of 37500 samples.
-
-The fine-tuned MahaBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/mahahate-multi-roberta'> 4-class </a> and <a href='https://huggingface.co/l3cube-pune/mahahate-bert'> 2-class </a>. The benchmark results are described in our paper <a href='https://arxiv.org/pdf/2203.13778.pdf'> pdf </a>
-
-# L3CubeMahaSent
-
-L3CubeMahaSent is the largest publicly available Marathi Sentiment Analysis dataset to date. This dataset is made of marathi tweets which are manually labelled. The annotation guidelines are mentioned in our paper <a href='https://arxiv.org/abs/2103.11408'> link </a>.
-
-## Dataset Statistics
-
-This dataset contains a total of 18,378 tweets which are classified into three classes - Positive(1), Negative(-1) and Neutral(0).
-All tweets are present in their original form, without any preprocessing.
-
-Out of these, 15,864 tweets are considered for splitting them into train(tweets-train.csv), test(tweets-test.csv) and validation(tweets-valid.csv) datasets. This has been done to avoid class imbalance in our dataset. <br>
-The remaining 2,514 tweets are also provided in a separate sheet(tweets-extra.csv).<br>
-
-The statistics of the dataset are as follows : 
-
-|Split|Total tweets|Tweets per class|
-|:--------:|:----:|:----:|
-|Train|12114|4038|
-|Test|2250|750|
-|Validation|1500|500|
-
-The extra sheet contains 2355 positive and 159 negative tweets. These tweets have not been considered during baseline experiments.
-
-## Baseline Experimentations
-
-Two-class(positive,negative) and Three-class(positive,negative,neutral) sentiment analysis / classification was performed on the dataset.
-
-### Models
-
-Some of the models used or performing baseline experiments were:
-
-- CNN, BiLSTM
-  - fastText embeddings provided by <a href='https://github.com/AI4Bharat/indicnlp_corpus'> IndicNLP </a> and <a href='https://fasttext.cc/docs/en/crawl-vectors.html'> Facebook </a> are also used along with the above two models. These embeddings are used in two variations: static and trainable.
-
-- BERT based models:
-  - Multilingual BERT
-  - IndicBERT
-
-### Results
-
-Details of the best performing models are given in the following table:
-
-|Model|3-class|2-class|
-|:--------:|:----:|:----:|
-|CNN IndicFT trainable|83.24|93.13|
-|BiLSTM IndicFT trainable|82.89|91.80|
-|IndicBERT|84.13|92.93|
-
-The fine-tuned IndicBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> here </a>.
-Further details about the dataset and baseline experiments can be found in this <a href='https://arxiv.org/abs/2103.11408'> paper </a> <a href='https://arxiv.org/pdf/2103.11408.pdf'> pdf </a>.
+|Dataset|Description|Samples(train, test, valid)|link|model|paper|
+|:--------:|:----:|:----:|:----:|:----:|:----:|
+MahaNER|Marathi Named Entity Recognition dataset with 8 entity classes|25k (21.5k, 1.5k, 2k)|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaNER'> data </a>|<a href='https://huggingface.co/l3cube-pune/marathi-ner'> MahaNER-BERT </a>|<a href='https://arxiv.org/abs/2204.06029'> link </a>|
+MahaHate|Marathi Hate Speech Detection dataset with 4 class (hate, offensive, pofane, and not) and 2 class (hate and not) labels|4-class: 25k (21.5k, 1.5k, 2k), 2-class:  37500|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaHate'> data </a>|<a href='https://huggingface.co/l3cube-pune/mahahate-multi-roberta'> 4-class </a> , <a href='https://huggingface.co/l3cube-pune/mahahate-bert'> 2-class </a>|<a href='https://arxiv.org/abs/2203.13778'> link </a>|
+MahaSent|Marathi Sentiment Analysis dataset with three classes - Positive(1), Negative(-1) and Neutral(0)|18,378 (12114, 2250, 1500); extra(2,514=2355(+1) + 159(-1))|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3CubeMahaSent%20Dataset'> data </a>|<a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> MarathiSentiment </a>|<a href='https://arxiv.org/abs/2103.11408'> link </a>|
 
 ## License
 
@@ -118,13 +55,17 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate and L3CubeMahaSent is license
 ```
 Joshi, Raviraj. "L3cube-MahaCorpus and MahaBERT: Marathi monolingual corpus, Marathi BERT language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
 
-Patil, Parth, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." arXiv preprint arXiv:2204.06029 (2022).
+Joshi, Ananya, et al. "L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi." arXiv preprint arXiv:2211.11187 (2022).
+
+Patankar, Shantanu, et al. "Spread love not hate: Undermining the importance of hateful pre-training for hate speech detection." arXiv preprint arXiv:2210.04267 (2022).
+
+Litake, Onkar, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference. 2022.
 
 Litake, Onkar, et al. "Mono vs Multilingual BERT: A Case Study in Hindi and Marathi Named Entity Recognition." arXiv preprint arXiv:2203.12907 (2022).
 
-Velankar, Abhishek, et al. "Mono vs Multilingual BERT for Hate Speech Detection and Text Classification: A Case Study in Marathi." arXiv preprint arXiv:2204.08669 (2022).
+Velankar, Abhishek, Hrushikesh Patil, and Raviraj Joshi. "Mono vs multilingual bert for hate speech detection and text classification: A case study in marathi." IAPR Workshop on Artificial Neural Networks in Pattern Recognition. Springer, Cham, 2023.
 
-Velankar, Abhishek, et al. "L3Cube-MahaHate: A Tweet-based Marathi Hate Speech Detection Dataset and BERT models." arXiv preprint arXiv:2203.13778 (2022).
+Patil, Hrushikesh, Abhishek Velankar, and Raviraj Joshi. "L3Cube-MahaHate: A Tweet-based Marathi Hate Speech Detection Dataset and BERT Models." Proceedings of the Third Workshop on Threat, Aggression and Cyberbullying (TRAC 2022). 2022.
 
 Velankar, Abhishek, et al. "Hate and offensive speech detection in Hindi and Marathi." arXiv preprint arXiv:2110.12200 (2021).
 
@@ -133,4 +74,4 @@ Kulkarni, Atharva, et al. "L3CubeMahaSent: A Marathi Tweet-based Sentiment Analy
 Kulkarni, Atharva, et al. "Experimental Evaluation of Deep Learning Models for Marathi Text Classification." Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications. Springer, Singapore, 2022.
 ```
 
-This project is co-ordinated and mentored by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
+This project is led by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
