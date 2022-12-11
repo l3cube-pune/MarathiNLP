@@ -35,10 +35,11 @@ The full Marathi Corpus is used to train BERT language models and made available
 MahaNER|Marathi Named Entity Recognition dataset with 8 entity classes|25k (21.5k, 1.5k, 2k)|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaNER'> data </a>|<a href='https://huggingface.co/l3cube-pune/marathi-ner'> MahaNER-BERT </a>|<a href='https://arxiv.org/abs/2204.06029'> link </a>|
 MahaHate|Marathi Hate Speech Detection dataset with 4 class (hate, offensive, pofane, and not) and 2 class (hate and not) labels|4-class: 25k (21.5k, 1.5k, 2k), 2-class:  37500|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaHate'> data </a>|<a href='https://huggingface.co/l3cube-pune/mahahate-multi-roberta'> 4-class </a> , <a href='https://huggingface.co/l3cube-pune/mahahate-bert'> 2-class </a>|<a href='https://arxiv.org/abs/2203.13778'> link </a>|
 MahaSent|Marathi Sentiment Analysis dataset with three classes - Positive(1), Negative(-1) and Neutral(0)|18,378 (12114, 1500, 2250); extra(2,514=2355(+1) + 159(-1))|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3CubeMahaSent%20Dataset'> data </a>|<a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> MarathiSentiment </a>|<a href='https://arxiv.org/abs/2103.11408'> link </a>|
+HateEval-Mr|Another dataset for evaluation of Hate Speech models with two classes - Hate(1) and None(0)|2k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/HateEval'> data| |<a href='https://arxiv.org/abs/2210.04267'> link </a>|
 
 ## License
 
-L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate and L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The datasets are released to the community for research purposes only and the group is not responsible for any misuse of these datasets.
+L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, and L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The datasets are released to the community for research purposes only and the group is not responsible for any misuse of these datasets.
 
 ## Citing
 ```
