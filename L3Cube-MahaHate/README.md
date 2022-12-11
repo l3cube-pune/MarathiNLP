@@ -9,7 +9,7 @@ The dataset is released in 4-class and 2-class form. The 4-class dataset (with l
 
 The fine-tuned MahaBERT model is available on huggingface <a href='https://huggingface.co/l3cube-pune/mahahate-multi-roberta'> 4-class </a> and <a href='https://huggingface.co/l3cube-pune/mahahate-bert'> 2-class </a>. The benchmark results are described in our paper <a href='https://arxiv.org/pdf/2203.13778.pdf'> pdf </a>
 
-##Citing
+## Citing
 ```
 @inproceedings{patil2022l3cube,
   title={L3Cube-MahaHate: A Tweet-based Marathi Hate Speech Detection Dataset and BERT Models},
