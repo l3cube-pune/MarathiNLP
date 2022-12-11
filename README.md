@@ -49,6 +49,19 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate and L3CubeMahaSent is license
   year={2022}
 }
 ```
+```
+@inproceedings{joshi-2022-l3cube,
+    title = "L3Cube-MahaCorpus and MahaBERT: Marathi Monolingual Corpus, Marathi BERT Language Models, and Resources",
+    author = "Joshi, Raviraj",
+    booktitle = "Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.wildre-1.17",
+    pages = "97--101",
+}
+```
 
 ## Publications
 
