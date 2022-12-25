@@ -13,10 +13,10 @@ As described in our paper the dataset was mainly created for evaluation purposes
 # Citing
 If you use our datasets or other findings from the paper, please consider citing our work:
 ```
-@article{patankar2022spread,
-  title={Spread love not hate: Undermining the importance of hateful pre-training for hate speech detection},
-  author={Patankar, Shantanu and Gokhale, Omkar and Kane, Aditya and Chavan, Tanmay and Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2210.04267},
-  year={2022}
+@article{gokhale2022spread,
+  title={Spread Love Not Hate: Undermining the Importance of Hateful Pre-training for Hate Speech Detection},
+  author={Gokhale, Omkar and Kane, Aditya and Patankar, Shantanu and Chavan, Tanmay and Joshi, Raviraj},
+  journal={arXiv preprint arXiv:2210.04267},
+  year={2022}
 }
 ```
