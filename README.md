@@ -71,7 +71,7 @@ Joshi, Raviraj. "L3cube-MahaCorpus and MahaBERT: Marathi monolingual corpus, Mar
 
 Joshi, Ananya, et al. "L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi." arXiv preprint arXiv:2211.11187 (2022).
 
-Patankar, Shantanu, et al. "Spread love not hate: Undermining the importance of hateful pre-training for hate speech detection." arXiv preprint arXiv:2210.04267 (2022).
+Gokhale, Omkar, et al. "Spread Love Not Hate: Undermining the Importance of Hateful Pre-training for Hate Speech Detection." arXiv preprint arXiv:2210.04267 (2022).
 
 Litake, Onkar, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference. 2022.
 
