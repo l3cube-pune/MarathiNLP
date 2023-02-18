@@ -1,7 +1,7 @@
 # L3Cube-MahaNLP
 Despite being the third most popular language in India, the Marathi language lacks useful NLP resources. With <a href='https://arxiv.org/abs/2205.14728'> L3Cube-MahaNLP</a>, we aim to build resources and a library for Marathi natural language processing. We have contributed un-supervised, supervised datasets, and Transformer models for Marathi. The supervised datasets include Marathi sentiment analysis, named entity recognition, and hate speech detection. With this, we at L3Cube-Pune aim to bring Marathi to the forefront of IndicNLP. Our vision is to make Marathi a resource-rich language and promote AI for Maharashtra!
 
-[Update] The library is now availabe in python package:
+[Update] The library is now available in a python package:
 ```
 pip install mahaNLP
 ```
