@@ -13,10 +13,9 @@ As described in our paper the dataset was mainly created for evaluation purposes
 # Citing
 If you use our datasets or other findings from the paper, please consider citing our work:
 ```
-@article{gokhale2022spread,
+@inproceedings{gokhalespread,
   title={Spread Love Not Hate: Undermining the Importance of Hateful Pre-training for Hate Speech Detection},
-  author={Gokhale, Omkar and Kane, Aditya and Patankar, Shantanu and Chavan, Tanmay and Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2210.04267},
-  year={2022}
+  author={Gokhale, Omkar Bhushan and Kane, Aditya and Patankar, Shantanu and Chavan, Tanmay and Joshi, Raviraj Bhuminand},
+  booktitle={I Can't Believe It's Not Better Workshop: Understanding Deep Learning Through Empirical Falsification}
 }
 ```
