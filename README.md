@@ -34,7 +34,7 @@ The full Marathi Corpus is used to train BERT language models and made available
 |MahaFT|Fast Text|<a href='https://drive.google.com/file/d/1xuQPMUIFvjgQranChgJ3alHXMJVeCVz0/view?usp=sharing'> bin </a>, <a href='https://drive.google.com/file/d/1-2rCOsgxKgTigonta4FvA4WBWIaXVX73/view?usp=sharing'> vec </a>|
 |MahaTweetBERT|MahaBERT + Tweets|<a href='https://huggingface.co/l3cube-pune/marathi-tweets-bert'> model </a>, <a href='https://arxiv.org/abs/2210.04267'> paper </a>|
 |MahaSBERT|Sentence-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-sentence-similarity-sbert'> MahaSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/marathi-sentence-bert-nli'> MahaSBERT </a> , <a href='https://arxiv.org/abs/2211.11187'> paper </a>|
-|IndicSBERT|Sentence-BERT (for cross-language) |<a href='https://huggingface.co/l3cube-pune/indic-sentence-similarity-sbert'> IndicSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/indic-sentence-bert-nli'> IndicSBERT  </a> , <a href='https://arxiv.org/abs/2211.11187'> paper </a>|
+|IndicSBERT|Sentence-BERT (for cross-language) |<a href='https://huggingface.co/l3cube-pune/indic-sentence-similarity-sbert'> IndicSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/indic-sentence-bert-nli'> IndicSBERT  </a> , <a href='https://arxiv.org/abs/2304.11434'> paper </a>|
 
 # Supervised Datasets
 
@@ -76,6 +76,8 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, and L3Cu
 
 ```
 Joshi, Raviraj. "L3cube-MahaCorpus and MahaBERT: Marathi monolingual corpus, Marathi BERT language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
+
+Deode, Samruddhi, et al. "L3Cube-IndicSBERT: A simple approach for learning cross-lingual sentence representations using multilingual BERT." arXiv preprint arXiv:2304.11434 (2023).
 
 Joshi, Ananya, et al. "L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi." arXiv preprint arXiv:2211.11187 (2022).
 
