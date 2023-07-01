@@ -44,7 +44,7 @@ MahaNER|Marathi Named Entity Recognition dataset with 8 entity classes|25k (21.5
 MahaHate|Marathi Hate Speech Detection dataset with 4 class (hate, offensive, pofane, and not) and 2 class (hate and not) labels|4-class: 25k (21.5k, 1.5k, 2k), 2-class:  37500|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaHate'> data </a>|<a href='https://huggingface.co/l3cube-pune/mahahate-multi-roberta'> 4-class </a> , <a href='https://huggingface.co/l3cube-pune/mahahate-bert'> 2-class </a>|<a href='https://arxiv.org/abs/2203.13778'> link </a>|
 MahaSent|Marathi Sentiment Analysis dataset with three classes - Positive(1), Negative(-1) and Neutral(0)|18,378 (12114, 1500, 2250); extra(2,514=2355(+1) + 159(-1))|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3CubeMahaSent%20Dataset'> data </a>|<a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> MarathiSentiment </a>|<a href='https://arxiv.org/abs/2103.11408'> link </a>|
 HateEval-Mr|Another dataset for evaluation of Hate Speech models with two classes - Hate(1) and None(0)|2k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/HateEval'> data| |<a href='https://arxiv.org/abs/2210.04267'> link </a>|
-MahaSent-MR|Sentiment Analysis of Marathi Movie Reviews three classes - Positive(1), Negative(-1) and Neutral(0)|15k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaSent-MD/MahaSent_MR'> data| |<a href='https://arxiv.org/abs/2306.13888'> link </a>|
+MahaSent-MD|A Multi-domain Marathi Sentiment Analysis dataset (4 domains - Marathi Movie Reviews, TV Subtitles, Generic Tweets, and Political Tweets) with three classes - Positive(1), Negative(-1) and Neutral(0)|60k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaSent-MD/'> data| <a href='https://huggingface.co/l3cube-pune/marathi-sentiment-md'>MahaSent-MD</a> |<a href='https://arxiv.org/abs/2306.13888'> link </a>|
 
 ## License
 
@@ -77,6 +77,8 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, and L3Cu
 
 ```
 Joshi, Raviraj. "L3cube-MahaCorpus and MahaBERT: Marathi monolingual corpus, Marathi BERT language models, and resources." arXiv preprint arXiv:2202.01159 (2022).
+
+Pingle, Aabha, et al. "L3Cube-MahaSent-MD: A Multi-domain Marathi Sentiment Analysis Dataset and Transformer Models." arXiv preprint arXiv:2306.13888 (2023).
 
 Deode, Samruddhi, et al. "L3Cube-IndicSBERT: A simple approach for learning cross-lingual sentence representations using multilingual BERT." arXiv preprint arXiv:2304.11434 (2023).
 
