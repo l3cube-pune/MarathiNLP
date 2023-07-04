@@ -1,6 +1,6 @@
 # L3Cube-MahaSent-MD
 
-L3Cube-MahaSent-MD is the largest publicly available multi-domain Marathi Sentiment Analysis dataset to date. It is a first-of-its-kind and the largest dataset in low resource Sentiment or Indic Sentiment landscape. It's a balanced multi-domain corpus making it best suited for multi-domain or cross-domain analysis.<br>
+L3Cube-MahaSent-MD is the largest publicly available multi-domain Marathi Sentiment Analysis dataset to date. It is a first-of-its-kind and the largest dataset in low resource Sentiment or Indic Sentiment landscape. It's a domain balanced and label balanced, multi-domain corpus making it best suited for multi-domain or cross-domain analysis.<br>
 This manually annotated dataset consists of domains like Movie Reviews, Subtitles, General Tweets, and Political Tweets. This dataset fills the gap for missing MR datasets for Marathi and introduces novel datasets in each domain.<br>
 The annotation guidelines and baseline results are mentioned in our paper <a href='https://arxiv.org/abs/2306.13888'> arxiv </a>.
 
