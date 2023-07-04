@@ -7,6 +7,7 @@ pip install mahaNLP
 ```
 Usage examples are provided in this demo <a href='https://colab.research.google.com/drive/1POx3Bi1cML6-s3Z3u8g8VpqzpoYCyv2q'> Colab </a>.
 
+[Update] We have released new multi-domain Sentiment analysis dataset MahaSent-MD with 60k samples across four diverse domains. A new sentiment analysis <a href='https://huggingface.co/l3cube-pune/marathi-sentiment-md'>model</a> is also released on HF.
 
 # L3Cube-MahaCorpus and Marathi BERT
 L3Cube-MahaCorpus a Marathi monolingual data set scraped from different internet sources. We expand the existing Marathi monolingual corpus with 24.8M sentences and 289M tokens.
