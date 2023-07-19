@@ -46,6 +46,7 @@ MahaHate|Marathi Hate Speech Detection dataset with 4 class (hate, offensive, po
 MahaSent|Marathi Sentiment Analysis dataset with three classes - Positive(1), Negative(-1) and Neutral(0)|18,378 (12114, 1500, 2250); extra(2,514=2355(+1) + 159(-1))|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3CubeMahaSent%20Dataset'> data </a>|<a href='https://huggingface.co/l3cube-pune/MarathiSentiment'> MarathiSentiment </a>|<a href='https://arxiv.org/abs/2103.11408'> link </a>|
 HateEval-Mr|Another dataset for evaluation of Hate Speech models with two classes - Hate(1) and None(0)|2k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/HateEval'> data| |<a href='https://arxiv.org/abs/2210.04267'> link </a>|
 MahaSent-MD|A Multi-domain Marathi Sentiment Analysis dataset (4 domains - Marathi Movie Reviews, TV Subtitles, Generic Tweets, and Political Tweets) with three classes - Positive(1), Negative(-1) and Neutral(0)|60k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/L3Cube-MahaSent-MD/'> data| <a href='https://huggingface.co/l3cube-pune/marathi-sentiment-md'>MahaSent-MD</a> |<a href='https://arxiv.org/abs/2306.13888'> link </a>|
+MeSent|A code-mixed Marathi-English Sentiment Analysis dataset with three classes - Positive(1), Negative(-1) and Neutral(0)|12k samples|<a href='https://github.com/l3cube-pune/MarathiNLP/tree/main/MeEval/L3Cube-MeSent'> data| <a href='https://huggingface.co/l3cube-pune/me-sent-roberta'>me-sent-roberta</a> |<a href='https://arxiv.org/abs/2306.14030'> link </a>|
 
 ## License
 
