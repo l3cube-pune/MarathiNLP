@@ -36,6 +36,10 @@ The full Marathi Corpus is used to train BERT language models and made available
 |MahaTweetBERT|MahaBERT + Tweets|<a href='https://huggingface.co/l3cube-pune/marathi-tweets-bert'> model </a>, <a href='https://arxiv.org/abs/2210.04267'> paper </a>|
 |MahaSBERT|Sentence-BERT|<a href='https://huggingface.co/l3cube-pune/marathi-sentence-similarity-sbert'> MahaSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/marathi-sentence-bert-nli'> MahaSBERT </a> , <a href='https://arxiv.org/abs/2211.11187'> paper </a>|
 |IndicSBERT|Sentence-BERT (for cross-language) |<a href='https://huggingface.co/l3cube-pune/indic-sentence-similarity-sbert'> IndicSBERT-STS </a>, <a href='https://huggingface.co/l3cube-pune/indic-sentence-bert-nli'> IndicSBERT  </a> , <a href='https://arxiv.org/abs/2304.11434'> paper </a>|
+|MeBERT|Codemixed Marathi-English BERT (Roman) |<a href='https://huggingface.co/l3cube-pune/me-bert'> me-bert </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
+|MeRoBERTa|Codemixed Marathi-English RoBERTa (Roman) |<a href='https://huggingface.co/l3cube-pune/me-roberta'> me-roberta </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
+|MeBERT-Mixed|Codemixed Marathi-English BERT (Roman + Devanagari) |<a href='https://huggingface.co/l3cube-pune/me-bert-mixed'> me-bert-mixed </a>, <a href='https://huggingface.co/l3cube-pune/me-bert-mixed-v2'> me-bert-mixed-v2 </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
+|MeRoBERTa-Mixed|Codemixed Marathi-English RoBERTa (Roman + Devanagari) |<a href='https://huggingface.co/l3cube-pune/me-roberta-mixed'> me-roberta-mixed </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
 
 # Supervised Datasets
 
