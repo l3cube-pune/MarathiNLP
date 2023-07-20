@@ -19,12 +19,12 @@ L3Cube-MahaCorpus(full) = L3Cube-MahaCorpus(news) + L3Cube-MahaCorpus(non-news)
 Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bharat/indicnlp_corpus'> sources </a>.
 |Dataset|#tokens(M)|#sentences(M)|Link|
 |:--------:|:----:|:----:|:----:|
-|L3Cube-MahaCorpus(news)|212|17.6|<a href='https://drive.google.com/file/d/1gLI38-YdvapattwxC3z46Fgzif7j8_Ji/view?usp=sharing'> link </a>|
-|L3Cube-MahaCorpus(non-news)|76.4|7.2|<a href='https://drive.google.com/file/d/1KHHJByCFwJxMJaGkO3FjIQbkLbc7rHAQ/view?usp=sharing'> link </a>|
-|L3Cube-MahaCorpus(full)|289|24.8|<a href='https://drive.google.com/file/d/1sHIIq7C-WA6nSQaoVr4uL6pas8MVNmAr/view?usp=sharing'> link </a>|
-|Full Marathi Corpus(all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
-|L3Cube-MeCorpus(Roman)|5|70.9|<a href=''> coming soon </a>|
-|L3Cube-MeCorpus(Roman + Devanagari)|10|139.5|<a href=''> coming soon </a>|
+|L3Cube-MahaCorpus (news)|212|17.6|<a href='https://drive.google.com/file/d/1gLI38-YdvapattwxC3z46Fgzif7j8_Ji/view?usp=sharing'> link </a>|
+|L3Cube-MahaCorpus (non-news)|76.4|7.2|<a href='https://drive.google.com/file/d/1KHHJByCFwJxMJaGkO3FjIQbkLbc7rHAQ/view?usp=sharing'> link </a>|
+|L3Cube-MahaCorpus (full)|289|24.8|<a href='https://drive.google.com/file/d/1sHIIq7C-WA6nSQaoVr4uL6pas8MVNmAr/view?usp=sharing'> link </a>|
+|Full Marathi Corpus (all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
+|L3Cube-MeCorpus (Roman)|5|70.9|<a href=''> coming soon </a>|
+|L3Cube-MeCorpus (Roman + Devanagari)|10|139.5|<a href=''> coming soon </a>|
 
 ## Marathi BERT models and Marathi Fast Text model
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
