@@ -23,8 +23,14 @@ Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bha
 |L3Cube-MahaCorpus (non-news)|76.4|7.2|<a href='https://drive.google.com/file/d/1KHHJByCFwJxMJaGkO3FjIQbkLbc7rHAQ/view?usp=sharing'> link </a>|
 |L3Cube-MahaCorpus (full)|289|24.8|<a href='https://drive.google.com/file/d/1sHIIq7C-WA6nSQaoVr4uL6pas8MVNmAr/view?usp=sharing'> link </a>|
 |Full Marathi Corpus (all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
-|L3Cube-MeCorpus (Roman)|5|70.9|<a href=''> coming soon </a>|
-|L3Cube-MeCorpus (Roman + Devanagari)|10|139.5|<a href=''> coming soon </a>|
+
+# L3Cube-MeCorpus
+L3Cube-MeCorpus, is a large code-mixed Marathi-English (Mr-En) corpus with 10 million social media sentences for pretraining.
+
+|Dataset|#tokens(M)|#sentences(M)|Link|
+|:--------:|:----:|:----:|:----:|
+|L3Cube-MeCorpus (Roman)|70.9|5|<a href=''> coming soon </a>|
+|L3Cube-MeCorpus (Roman + Devanagari)|139.5|10|<a href=''> coming soon </a>|
 
 ## Marathi BERT models and Marathi Fast Text model
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
