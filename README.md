@@ -26,7 +26,7 @@ Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bha
 |Full Marathi Corpus (all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
 
 # L3Cube-MeCorpus
-L3Cube-MeCorpus, is a first-of-its-kind large code-mixed Marathi-English (Mr-En) corpus with 10 million social media sentences released in <a href='https://arxiv.org/abs/2306.14030'> paper </a>.
+L3Cube-MeCorpus is a first-of-its-kind large code-mixed Marathi-English (Mr-En) corpus with 10 million social media sentences released in <a href='https://arxiv.org/abs/2306.14030'> paper </a>.
 
 |Dataset|#tokens(M)|#sentences(M)|Link|
 |:--------:|:----:|:----:|:----:|
