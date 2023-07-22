@@ -10,7 +10,7 @@ Usage examples are provided in this demo <a href='https://colab.research.google.
 [Update] We have released a new code-mixed Marathi-English unsupervised dataset MeCorpus and supervised datasets like MeSent, MeHate, and MeLID. <br>
 [Update] We have released a new multi-domain Sentiment analysis dataset MahaSent-MD with 60k samples across four diverse domains. A new sentiment analysis <a href='https://huggingface.co/l3cube-pune/marathi-sentiment-md'>model</a> is also released on HF.
 
-# L3Cube-MahaCorpus and Marathi BERT
+## L3Cube-MahaCorpus and Marathi BERT
 L3Cube-MahaCorpus is a Marathi monolingual data set scraped from different internet sources. We expand the existing Marathi monolingual corpus with 24.8M sentences and 289M tokens.
 We also present, MahaBERT, MahaAlBERT, and MahaRoBerta all BERT-based masked language models, and MahaFT, the fast text word embeddings both trained on full Marathi corpus with 752M tokens. 
 The evaluation details are mentioned in our paper <a href='https://arxiv.org/abs/2202.01159'> link </a>
@@ -25,7 +25,7 @@ Full Marathi Corpus incorporates all existing <a href='https://github.com/AI4Bha
 |L3Cube-MahaCorpus (full)|289|24.8|<a href='https://drive.google.com/file/d/1sHIIq7C-WA6nSQaoVr4uL6pas8MVNmAr/view?usp=sharing'> link </a>|
 |Full Marathi Corpus (all sources)|752|57.2|<a href='https://drive.google.com/file/d/1UjZ-X2S77AQyCkHqw2mFXRWYf9WOZS0m/view?usp=sharing'> link </a>|
 
-# L3Cube-MeCorpus
+## L3Cube-MeCorpus and code-mixed MeBERT
 L3Cube-MeCorpus is a first-of-its-kind large code-mixed Marathi-English (Mr-En) corpus with 10 million social media sentences released in <a href='https://arxiv.org/abs/2306.14030'> paper </a>.
 
 |Dataset|#tokens(M)|#sentences(M)|Link|
@@ -33,7 +33,7 @@ L3Cube-MeCorpus is a first-of-its-kind large code-mixed Marathi-English (Mr-En) 
 |L3Cube-MeCorpus (Roman)|70.9|5|<a href=''> coming soon </a>|
 |L3Cube-MeCorpus (Roman + Devanagari)|139.5|10|<a href=''> coming soon </a>|
 
-## Marathi BERT models and Marathi Fast Text model
+### Marathi BERT models and Marathi Fast Text model
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
 |Model|Description|Link|
 |:--------:|:----:|:----:|
@@ -50,7 +50,7 @@ The full Marathi Corpus is used to train BERT language models and made available
 |MeBERT-Mixed|Codemixed Marathi-English BERT (Roman + Devanagari) |<a href='https://huggingface.co/l3cube-pune/me-bert-mixed'> me-bert-mixed </a>, <a href='https://huggingface.co/l3cube-pune/me-bert-mixed-v2'> me-bert-mixed-v2 </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
 |MeRoBERTa-Mixed|Codemixed Marathi-English RoBERTa (Roman + Devanagari) |<a href='https://huggingface.co/l3cube-pune/me-roberta-mixed'> me-roberta-mixed </a>, <a href='https://arxiv.org/abs/2306.14030'> paper </a>|
 
-# Supervised Datasets
+### Supervised Datasets
 
 |Dataset|Description|Samples(train, valid, test)|link|model|paper|
 |:--------:|:----:|:----:|:----:|:----:|:----:|
@@ -65,7 +65,7 @@ MeLID|A code-mixed Marathi-English language identification (LID) dataset with th
 
 ## License
 
-L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, L3Cube-MahaSent-MD, and L3CubeMahaSent is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The datasets are released to the community for research purposes only and the group is not responsible for any misuse of these datasets.
+L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, L3Cube-MahaSent-MD, L3CubeMahaSent, L3Cube-MeCorpus, L3Cube-MahaSent-MD, L3Cube-MeSent, L3Cube-MeHate, and L3Cube-MeLID are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The datasets are released to the community for research purposes only and the group is not responsible for any misuse of these datasets.
 
 ## Citing
 ```
