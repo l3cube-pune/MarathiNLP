@@ -31,6 +31,7 @@ L3Cube-MeCorpus is a first-of-its-kind large code-mixed Marathi-English (Mr-En) 
 |Dataset|#tokens(M)|#sentences(M)|Link|
 |:--------:|:----:|:----:|:----:|
 |L3Cube-MeCorpus (Roman)|70.9|5|<a href=''> coming soon </a>|
+|L3Cube-MeCorpus (Devanagari)|68.6|5|<a href=''> coming soon </a>|
 |L3Cube-MeCorpus (Roman + Devanagari)|139.5|10|<a href=''> coming soon </a>|
 
 ### Marathi BERT models and Marathi Fast Text model
