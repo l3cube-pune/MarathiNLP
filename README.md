@@ -30,9 +30,9 @@ L3Cube-MeCorpus is a first-of-its-kind large code-mixed Marathi-English (Mr-En) 
 
 |Dataset|#tokens(M)|#sentences(M)|Link|
 |:--------:|:----:|:----:|:----:|
-|L3Cube-MeCorpus (Roman)|70.9|5|<a href=''> coming soon </a>|
-|L3Cube-MeCorpus (Devanagari)|68.6|5|<a href=''> coming soon </a>|
-|L3Cube-MeCorpus (Roman + Devanagari)|139.5|10|<a href=''> coming soon </a>|
+|L3Cube-MeCorpus (Roman)|70.9|5|<a href='https://drive.google.com/file/d/1yyoANEBbj6keb0zfcXTpKmw0bueKy_fa/view?usp=sharing'> link </a>|
+|L3Cube-MeCorpus (Devanagari)|68.6|5|<a href='https://drive.google.com/file/d/1WNVXj6KZ0_kgr-wYb5CBUbaL4dlM3QVa/view?usp=sharing'> link </a>|
+|L3Cube-MeCorpus (Roman + Devanagari)|139.5|10|<a href='https://drive.google.com/file/d/1fvDEVlb1SCaxqUl3Xu5LYzAJWLzHeLy0/view?usp=sharing'> link </a>|
 
 ### Marathi BERT models and Marathi Fast Text model
 The full Marathi Corpus is used to train BERT language models and made available on HuggingFace model hub.
