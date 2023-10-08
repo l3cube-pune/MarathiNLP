@@ -1,6 +1,7 @@
 # L3Cube-MahaNews
 
-L3Cube-MahaNews is a long, medium, and short document classification dataset in Marathi. The dataset is based on News articles and headlines.
+L3Cube-MahaNews is a long, medium, and short document classification dataset in Marathi. The dataset is based on News articles and headlines. <br>
+Paper coming soon ..
 
 ## Data Statistics
 ![Alt Text](mahanews_stats.png)
