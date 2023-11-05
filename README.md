@@ -100,11 +100,15 @@ Chavan, Tanmay, et al. "My Boli: Code-mixed Marathi-English Corpora, Pretrained 
 
 Pingle, Aabha, et al. "L3Cube-MahaSent-MD: A Multi-domain Marathi Sentiment Analysis Dataset and Transformer Models." arXiv preprint arXiv:2306.13888 (2023).
 
+Pingle, Aabha, et al. "Robust Sentiment Analysis for Low Resource languages Using Data Augmentation Approaches: A Case Study in Marathi." arXiv preprint arXiv:2310.00734 (2023).
+
 Deode, Samruddhi, et al. "L3Cube-IndicSBERT: A simple approach for learning cross-lingual sentence representations using multilingual BERT." arXiv preprint arXiv:2304.11434 (2023).
 
 Joshi, Ananya, et al. "L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi." arXiv preprint arXiv:2211.11187 (2022).
 
 Gokhale, Omkar Bhushan, et al. "Spread Love Not Hate: Undermining the Importance of Hateful Pre-training for Hate Speech Detection." I Can't Believe It's Not Better Workshop: Understanding Deep Learning Through Empirical Falsification.
+
+Sabane, Maithili, et al. "Enhancing Low Resource NER using Assisting Language and Transfer Learning." 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC). IEEE, 2023.
 
 Litake, Onkar, et al. "L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models." Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference. 2022.
 
@@ -121,4 +125,4 @@ Kulkarni, Atharva, et al. "L3CubeMahaSent: A Marathi Tweet-based Sentiment Analy
 Kulkarni, Atharva, et al. "Experimental Evaluation of Deep Learning Models for Marathi Text Classification." Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications. Springer, Singapore, 2022.
 ```
 
-This project is led by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Pune. For any queries contact ravirajoshi@gmail.com .
+This project is led by <a href='https://www.linkedin.com/in/ravirajoshi/'> Raviraj Joshi </a> under L3Cube Labs, Pune. For any queries contact ravirajoshi@gmail.com .
