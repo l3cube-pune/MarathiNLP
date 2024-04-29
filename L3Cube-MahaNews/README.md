@@ -11,10 +11,12 @@ Paper coming soon ..
 
 ## Citing
 ```
-@article{joshi2022l3cube,
-  title={L3Cube-MahaNLP: Marathi Natural Language Processing Datasets, Models, and Library},
-  author={Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2205.14728},
-  year={2022}
+@inproceedings{mittal2023l3cube,
+  title={L3Cube-MahaNews: News-Based Short Text and Long Document Classification Datasets in Marathi},
+  author={Mittal, Saloni and Magdum, Vidula and Hiwarkhedkar, Sharayu and Dhekane, Omkar and Joshi, Raviraj},
+  booktitle={International Conference on Speech and Language Technologies for Low-resource Languages},
+  pages={52--63},
+  year={2023},
+  organization={Springer}
 }
 ```
