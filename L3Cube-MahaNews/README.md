@@ -1,6 +1,7 @@
 # L3Cube-MahaNews
 
-L3Cube-MahaNews is a long (LDC), medium (LPC), and short (SHC) document classification dataset in Marathi. The dataset is based on News articles and headlines. More details are described in the <a href='https://arxiv.org/abs/2404.18216'> paper </a> <br>
+L3Cube-MahaNews is a long (LDC), medium (LPC), and short (SHC) document classification dataset in Marathi. The dataset is based on News articles and headlines. More details are described in the <a href='https://arxiv.org/abs/2404.18216'> paper </a>. <br>
+The BERT models trained on this dataset is shared <a href='https://huggingface.co/l3cube-pune/marathi-topic-all-doc'> here </a>.
 
 
 ## Data Statistics
