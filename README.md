@@ -101,6 +101,8 @@ L3Cube-MahaCorpus, L3Cube-MahaNER, L3Cube-MahaHate, L3Cube-HateEval-Mr, L3Cube-M
 ```
 Joshi, Raviraj. "L3Cube-MahaCorpus and MahaBERT: Marathi Monolingual Corpus, Marathi BERT Language Models, and Resources." LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022. 2022.
 
+Kowtal, Nidhi, and Raviraj Joshi. "L3Cube-MahaEmotions: A Marathi Emotion Recognition Dataset with Synthetic Annotations using CoTR prompting and Large Language Models." arXiv preprint arXiv:2506.00863 (2025).
+
 Mittal, Saloni, et al. "L3Cube-MahaNews: News-Based Short Text and Long Document Classification Datasets in Marathi." International Conference on Speech and Language Technologies for Low-resource Languages. Cham: Springer Nature Switzerland, 2023.
 
 Chavan, Tanmay, et al. "My Boli: Code-mixed Marathi-English Corpora, Pretrained Language Models and Evaluation Benchmarks." arXiv preprint arXiv:2306.14030 (2023).
