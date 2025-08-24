@@ -1,7 +1,7 @@
 # L3Cube-MahaParaphrase Dataset
 
 ## Overview:
-The **L3Cube-MahaParaphrase Dataset** is a high-quality, human-annotated corpus specifically designed for **Marathi**, a low-resource Indic language. It contains 8,000 sentence pairs labeled as either **Paraphrase (P)** or **Non-paraphrase (NP)**. This dataset is useful for tasks like paraphrase detection, semantic similarity, and data augmentation, as well as improving NLP models for low-resource languages.
+The **L3Cube-MahaParaphrase Dataset** is a Marathi paraphrase detection corpus. It is a high-quality, human-annotated corpus specifically designed for **Marathi**, a low-resource Indic language. It contains 8,000 sentence pairs labeled as either **Paraphrase (P)** or **Non-paraphrase (NP)**. This dataset is useful for tasks like paraphrase detection, semantic similarity, and data augmentation, as well as improving NLP models for low-resource languages.
 
 ## Language:
 - **Primary Language**: Marathi (Low-resource Indic Language)
