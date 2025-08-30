@@ -1,6 +1,6 @@
 # L3Cube-MahaParaphrase Dataset
 
-Paper: [MahaParaphrase: A Marathi Paraphrase Detection Corpus and BERT-based Models](https://huggingface.co/papers/2508.17444) <br>
+Paper: [MahaParaphrase: A Marathi Paraphrase Detection Corpus and BERT-based Models](https://arxiv.org/abs/2508.17444) <br>
 Code: https://github.com/l3cube-pune/MarathiNLP
 
 ## Overview:
