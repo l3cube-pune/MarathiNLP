@@ -1,5 +1,8 @@
 # L3Cube-MahaParaphrase Dataset
 
+Paper: [MahaParaphrase: A Marathi Paraphrase Detection Corpus and BERT-based Models](https://huggingface.co/papers/2508.17444) <br>
+Code: https://github.com/l3cube-pune/MarathiNLP
+
 ## Overview:
 The **L3Cube-MahaParaphrase Dataset** is a Marathi paraphrase detection corpus. It is a high-quality, human-annotated corpus specifically designed for **Marathi**, a low-resource Indic language. It contains 8,000 sentence pairs labeled as either **Paraphrase (P)** or **Non-paraphrase (NP)**. This dataset is useful for tasks like paraphrase detection, semantic similarity, and data augmentation, as well as improving NLP models for low-resource languages.
 
@@ -29,10 +32,10 @@ Standard transformer-based models like **BERT** have been evaluated on this data
 ## Citation:
 If you use this dataset, please cite the original work as follows:
 ```
-@article{joshi2022l3cube,
-  title={L3cube-mahanlp: Marathi natural language processing datasets, models, and library},
-  author={Joshi, Raviraj},
-  journal={arXiv preprint arXiv:2205.14728},
-  year={2022}
+@article{jadhav2025mahaparaphrase,
+  title={MahaParaphrase: A Marathi Paraphrase Detection Corpus and BERT-based Models},
+  author={Jadhav, Suramya and Shanbhag, Abhay and Thakurdesai, Amogh and Sinare, Ridhima and Joshi, Ananya and Joshi, Raviraj},
+  journal={arXiv preprint arXiv:2508.17444},
+  year={2025}
 }
 ```
