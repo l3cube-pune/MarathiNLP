@@ -4,7 +4,7 @@ Paper: [L3Cube-MahaSTS: A Marathi Sentence Similarity Dataset and Models](https:
 Code: https://github.com/l3cube-pune/MarathiNLP
 
 ## Overview:
-The **L3Cube-MahaSTS Dataset** is a human-annotated **Sentence Textual Similarity (STS)** corpus for **Marathi**, a low-resource Indic language. It contains **16,860 sentence pairs** annotated with **continuous similarity scores ranging from 0 to 5**. 
+The [**L3Cube-MahaSTS Dataset**](https://huggingface.co/datasets/l3cube-pune/MahaSTS) is a human-annotated **Sentence Textual Similarity (STS)** corpus for **Marathi**, a low-resource Indic language. It contains **16,860 sentence pairs** annotated with **continuous similarity scores ranging from 0 to 5**. 
 
 To ensure robust and balanced supervision, the dataset is **uniformly distributed** across six score buckets (0, 1, 2, 3, 4, 5), which helps reduce label bias and improves model generalization in low-resource settings. This dataset is ideal for training regression-based semantic similarity models and benchmarking STS performance in Indic NLP.
 
