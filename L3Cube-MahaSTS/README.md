@@ -27,11 +27,11 @@ The bucketed distribution ensures that models trained on the dataset do not over
 
 ## Intended Use:
 This dataset can be used to train and evaluate NLP models for:
-- **Sentence Textual Similarity (STS)**
-- **Semantic Sentence Matching**
-- **Regression-based Similarity Scoring**
-- **Transfer Learning for Indic Languages**
-- **Sentence Embedding Evaluation**
+- Sentence Textual Similarity (STS)
+- Semantic Sentence Matching
+- Regression-based Similarity Scoring
+- Transfer Learning for Indic Languages
+- Sentence Embedding Evaluation
 
 ## Model Benchmarks:
 We introduce [**MahaSBERT-STS-v2**](https://huggingface.co/l3cube-pune/marathi-sentence-similarity-sbert-v2), a Sentence-BERT model fine-tuned on the MahaSTS dataset. It is benchmarked against other multilingual and Indic BERT models.
